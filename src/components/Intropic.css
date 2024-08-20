@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'CindyFont';
-    src: url("/Users/cindyguijosa/Documents/wedding/websiteDev/cindy-nic-wedding/public/fonts/Panchang_Complete/Fonts/OTF/Panchang-Semibold.otf") format("opentype");
+    src: url("../../public/fonts/Panchang_Complete/Fonts/OTF/Panchang-Semibold.otf") format("opentype");
 }
 
 video {
