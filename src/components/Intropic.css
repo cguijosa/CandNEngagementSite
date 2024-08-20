@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'CindyFont';
+    src: url("/Users/cindyguijosa/Documents/wedding/websiteDev/cindy-nic-wedding/public/fonts/Panchang_Complete/Fonts/OTF/Panchang-Semibold.otf") format("opentype");
+}
+
+video {
+    object-fit: cover;
+    min-height: 30%;
+    max-height: 30%;
+    position: absolute;
+    transform: translate(0%, -10%);
+    z-index: -1;
+  }
+
+  .icon {
+    color: #CF0101;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 4.72vw;
+  }
+
+  .intro-container {
+    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    object-fit: contain;
+    background-color: #fefcde;
+    color: #CF0101;
+    text-transform: uppercase;
+    animation: animate 1s ease-in forwards 3s;
+    display: flex;
+    top: 0;
+    transform: scale(0, 0);
+    flex-direction: column;
+    
+  }
+
+.logo{
+    font-family: CindyFont, sans-serif;
+    font-size: 10.72vw;
+    display: flex;
+    font-weight: 400;
+}
+.cplusn { 
+    top: 120px;
+    left: 30px;
+    position: absolute;
+}
+
+.invite { 
+    font-size:2.9vw;
+}
+
+.main {
+    background-color: #fefcde;
+}
+
+.info { 
+    font-family: sans-serif;
+    font-size:1.9vw;
+    left: 30px;
+    bottom: 15%;
+    position: absolute;
+    overflow: visible;
+    text-align: left;
+}
+
+button {
+    background-color: #fefcde;
+    color: #CF0101;
+    margin: 4px 2px;
+    border: 2px solid #CF0101;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    
+}
+
+button:hover,
+button:focus {
+  background-color: #CF0101;
+  color: #fefcde;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+h2 {
+    color: #fefcde;
+    opacity: 0;
+    font-size: 15.72vw;
+    animation: fadeOut 3s ease forwards;
+  }
+
+  .loading {
+    height: 100vh;
+    background-color: #b10404;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @keyframes animate {
+    from {
+        opacity: 0;
+        transform: translateY(0%);
+      }
+      to {
+        opacity: 1;
+        transform:  translateY(0%);
+      }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      
+    }
+    to {
+      opacity: 1;
+      
+    }
+  }
+
+  @keyframes fadeOut {
+    0%,100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+  
+  @keyframes fadeInText {
+    from {
+      opacity: 0;
+      transform: translateY(50%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+
+  }
