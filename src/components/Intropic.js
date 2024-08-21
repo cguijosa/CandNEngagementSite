@@ -29,7 +29,10 @@ function IntroPic(){
                 </div>
                 <div className="cplusn logo">N+C</div>
                 <video ref={videoRef} src={video} type="video/mp4" autoPlay="autoplay" loop muted="true" playsInline/>
-                {videoRef.current.play()}
+                <script>
+                    videoRef.current.play()
+                </script>
+                
                 <div className="info"><div className="invite">ENGAGEMENT</div><br></br>Celebrate With us<br></br>4 pm 11.02.2024<br></br>
                 120 Paramount Park Dr Gatihersburg MD 20879<br></br><br></br>
                     <a href="https://nicandcindy.anrsvp.com/#home" target="_blank">
