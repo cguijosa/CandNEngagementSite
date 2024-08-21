@@ -96,6 +96,7 @@ h2 {
     opacity: 0;
     font-size: 15.72vw;
     animation: fadeOut 3s ease forwards;
+    font-family: CindyFont, sans-serif;
   }
 
   .loading {
