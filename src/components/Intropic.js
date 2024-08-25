@@ -26,9 +26,9 @@ function IntroPic(){
                 <div className='intro-container'>
                     
                     <div className="cplusn logo">N+C</div>
-                    <video style={{objectFit: 'cover'}} ref={videoRef} src={video} type="video/mp4" loop muted="true" playsInline poster="../cover.png"/>
+                    <video ref={videoRef} src={video} type="video/mp4" autoPlay="" loop muted="true" playsInline poster="../cover.png"/>
                     <div className='icon' onClick={handleClick}>
-                        <i><FontAwesomeIcon icon={click ? faPause : faPlay} /></i>
+                        <i><FontAwesomeIcon icon={click ? faPlay : faPlay} /></i>
                     </div>
                     <div className="info"><div className="invite">ENGAGEMENT</div><br></br>Celebrate With us<br></br>4 pm 11.02.2024<br></br>
                     120 Paramount Park Dr Gatihersburg MD 20879<br></br><br></br>
