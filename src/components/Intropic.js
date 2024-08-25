@@ -30,7 +30,7 @@ function IntroPic(){
                     <img style={click?{hidden:true} : {hidden:false}} src={covpic}/>
                     <video style={click?{hidden:false} : {hidden:true}}ref={videoRef} src={video} type="video/mp4" loop muted="true" playsInline poster={covpic}/>
                     <div className='icon' onClick={handleClick}>
-                        <i><FontAwesomeIcon icon={click ? faPlay : faPlay} /></i>
+                        <i><FontAwesomeIcon icon={click ? faPause : faPlay} /></i>
                     </div>
                     <div className="info"><div className="invite">ENGAGEMENT</div><br></br>Celebrate With us<br></br>4 pm 11.02.2024<br></br>
                     120 Paramount Park Dr Gatihersburg MD 20879<br></br><br></br>
