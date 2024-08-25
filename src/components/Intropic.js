@@ -3,7 +3,8 @@ import './Intropic.css'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPause, faPlay } from '@fortawesome/free-solid-svg-icons';
-import video from '../engagementvid.MOV'
+import video from '../engagementvid.MOV';
+import covpic from '../cover.jpg';
 
 function IntroPic(){
     const videoRef = React.useRef(null);
@@ -26,7 +27,8 @@ function IntroPic(){
                 <div className='intro-container'>
                     
                     <div className="cplusn logo">N+C</div>
-                    <video ref={videoRef} src={video} type="video/mp4" loop muted="true" playsInline poster="../cover.png"/>
+                    <img style={click?{hidden:true} : {hidden:false}} src={covpic}/>
+                    <video style={click?{hidden:false} : {hidden:true}}ref={videoRef} src={video} type="video/mp4" loop muted="true" playsInline poster={covpic}/>
                     <div className='icon' onClick={handleClick}>
                         <i><FontAwesomeIcon icon={click ? faPlay : faPlay} /></i>
                     </div>

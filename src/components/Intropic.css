@@ -3,7 +3,7 @@
     src: url("../../public/fonts/Panchang_Complete/Fonts/OTF/Panchang-Semibold.otf") format("opentype");
 }
 
-video {
+video, img {
     object-fit: cover;
     min-height: 30%;
     max-height: 30%;
