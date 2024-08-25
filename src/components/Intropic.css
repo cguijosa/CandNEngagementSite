@@ -7,9 +7,9 @@ video {
     object-fit: cover;
     min-height: 30%;
     max-height: 30%;
-    position: absolute;
+    position: fixed;
     transform: translate(0%, -10%);
-    z-index: -1;
+    
   }
 
   .icon {
