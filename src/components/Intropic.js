@@ -26,7 +26,7 @@ function IntroPic(){
                 <div className='intro-container'>
                     
                     <div className="cplusn logo">N+C</div>
-                    <video style="objectFit: 'cover'" ref={videoRef} src={video} type="video/mp4" loop muted="true" playsInline poster="../cover.png"/>
+                    <video style={{objectFit: 'cover'}} ref={videoRef} src={video} type="video/mp4" loop muted="true" playsInline poster="../cover.png"/>
                     <div className='icon' onClick={handleClick}>
                         <i><FontAwesomeIcon icon={click ? faPause : faPlay} /></i>
                     </div>
