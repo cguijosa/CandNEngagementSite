@@ -32,8 +32,8 @@ function IntroPic(){
                     <div className='icon' onClick={handleClick}>
                         <i><FontAwesomeIcon icon={click ? faPause : faPlay} /></i>
                     </div>
-                    <div className="info"><div className="invite">ENGAGEMENT</div><br></br>Celebrate With us<br></br>4 pm 11.02.2024<br></br>
-                    120 Paramount Park Dr Gatihersburg MD 20879<br></br><br></br>
+                    <div className="info"><div className="invite">ENGAGEMENT</div><br></br>Celebrate With us<br></br>4 pm 11.02.2024<br></br><br></br>Cocktail Attire<br></br>Parking in Retail Garage (in front of starbucks)<br></br>Small bites and libations served<br></br>
+                    <br></br>120 Paramount Park Dr Gatihersburg MD 20879<br></br><br></br>
                         <a href="https://nicandcindy.anrsvp.com/#home" target="_blank">
                             <button>RSVP</button>
                         </a>
