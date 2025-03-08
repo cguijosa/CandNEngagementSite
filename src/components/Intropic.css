@@ -101,7 +101,8 @@ h2 {
 
   .loading {
     height: 100vh;
-    background-color: #b10404;
+    background-color: #51545c;
+    color:#c3a780;
     display: flex;
     justify-content: center;
     align-items: center;
