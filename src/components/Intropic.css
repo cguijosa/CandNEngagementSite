@@ -92,7 +92,7 @@ button:focus {
 }
 
 h2 {
-    color: #fefcde;
+    color: #c3a780;
     opacity: 0;
     font-size: 15.72vw;
     animation: fadeOut 3s ease forwards;
@@ -101,8 +101,8 @@ h2 {
 
   .loading {
     height: 100vh;
-    background-color: #51545c;
-    color:#c3a780;
+    background-color: #414042;
+    color:rgb(179, 148, 106);
     display: flex;
     justify-content: center;
     align-items: center;
