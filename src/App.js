@@ -10,6 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' exact Component={Home} />
+        <Route path='/reception' exact Component={Home} />
       </Routes>
     </Router>
   );
